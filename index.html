@@ -2,15 +2,14 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hugo Aragón | Portafolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 
-    <!-- Header / Navegación -->
     <header>
         <nav>
             <div class="logo">HNAM</div>
@@ -27,7 +26,6 @@
         </nav>
     </header>
 
-    <!-- Sección Inicio / Hero -->
     <section id="inicio" class="hero">
         <div class="hero-content">
             <div class="hero-text">
@@ -35,175 +33,81 @@
                 <p>Estudiante de Informática | Desarrollador Web</p>
                 <p class="location">📍 Universidad de la Sierra Sur, Miahuatlán, Oaxaca</p>
                 <div class="hero-buttons">
-                    <a href="#proyectos" class="btn-primary">Ver proyectos <i class="fas fa-arrow-right"></i></a>
+                    <a href="#proyectos" class="btn-primary">Ver proyectos</a>
                     <a href="#contacto" class="btn-secondary">Contáctame</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Sección Sobre mí -->
     <section id="sobre-mi" class="sobre-mi">
         <div class="container">
             <h2 class="section-title">Sobre mí</h2>
-            <div class="sobre-mi-content">
-                <div class="sobre-mi-text">
-                    <p>👋 ¡Hola! Soy <strong>Hugo Nicolás Aragón Maya</strong>, tengo <strong>22 años</strong> y estoy cursando el <strong>octavo semestre de la Licenciatura en Informática</strong> en la <strong>Universidad de la Sierra Sur</strong>, en Miahuatlán de Porfirio Díaz, Oaxaca.</p>
-                    
-                    <p>🚀 Me apasiona todo lo relacionado con <strong>desarrollo web (frontend y backend)</strong>, <strong>redes</strong> y <strong>bases de datos</strong>. Me encanta entender cómo funcionan los sistemas desde el código hasta el servidor.</p>
-                    
-                    <p>🎯 <strong>Objetivo profesional:</strong> Seguir creciendo como desarrollador, contribuir a proyectos reales y especializarme en arquitectura de software o administración de bases de datos.</p>
-                    
-                    <p>✨ <strong>Dato curioso:</strong> Una vez pasé 3 horas buscando un error en mi código... y resultó ser un punto y coma que faltaba. Desde entonces le tengo un respeto profundo a los linters.</p>
-                </div>
+            <div class="sobre-mi-text">
+                <p>👋 ¡Hola! Soy <strong>Hugo Nicolás Aragón Maya</strong>, tengo <strong>22 años</strong> y estoy cursando el <strong>octavo semestre de la Licenciatura en Informática</strong> en la <strong>Universidad de la Sierra Sur</strong>.</p>
+                <p>🚀 Me apasiona el desarrollo web, redes y bases de datos.</p>
+                <p>✨ <strong>Dato curioso:</strong> Una vez pasé 3 horas buscando un error... y era un punto y coma que faltaba.</p>
             </div>
         </div>
     </section>
 
-    <!-- Sección Tecnologías -->
     <section id="tecnologias" class="tecnologias">
         <div class="container">
-            <h2 class="section-title">Tecnologías que manejo</h2>
+            <h2 class="section-title">Tecnologías</h2>
             <div class="skills-grid">
                 <div class="skill-card">
                     <i class="fas fa-code"></i>
                     <h3>Frontend</h3>
-                    <ul>
-                        <li>React.js ⚛️</li>
-                        <li>JavaScript (ES6+)</li>
-                        <li>HTML5 / CSS3</li>
-                        <li>Figma</li>
-                    </ul>
+                    <ul><li>React.js</li><li>JavaScript</li><li>HTML/CSS</li><li>Figma</li></ul>
                 </div>
                 <div class="skill-card">
                     <i class="fas fa-server"></i>
                     <h3>Backend</h3>
-                    <ul>
-                        <li>Node.js 🚀</li>
-                        <li>Java ☕</li>
-                        <li>C</li>
-                    </ul>
+                    <ul><li>Node.js</li><li>Java</li><li>C</li></ul>
                 </div>
                 <div class="skill-card">
                     <i class="fas fa-database"></i>
                     <h3>Bases de datos</h3>
-                    <ul>
-                        <li>PostgreSQL 🐘</li>
-                        <li>MySQL</li>
-                    </ul>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-graduation-cap"></i>
-                    <h3>En aprendizaje</h3>
-                    <ul>
-                        <li>TypeScript</li>
-                        <li>Docker</li>
-                        <li>TailwindCSS</li>
-                    </ul>
+                    <ul><li>PostgreSQL</li><li>MySQL</li></ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Sección Proyectos -->
     <section id="proyectos" class="proyectos">
         <div class="container">
             <h2 class="section-title">Mis proyectos</h2>
             <div class="projects-grid">
-                
                 <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-school"></i>
-                    </div>
-                    <h3>Sistema de gestión escolar (API)</h3>
-                    <p class="project-semester">📅 6to semestre</p>
-                    <p class="project-description">API REST para gestionar alumnos, calificaciones y horarios. Conecta PostgreSQL con Node.js y Express.</p>
-                    <p class="project-learn"><strong>🎯 Aprendí:</strong> Diseño de BD relacional, autenticación JWT, manejo de errores</p>
-                    <div class="project-tech">
-                        <span>Node.js</span>
-                        <span>Express</span>
-                        <span>PostgreSQL</span>
-                    </div>
+                    <h3>Sistema de gestión escolar</h3>
+                    <p>API REST con Node.js, Express y PostgreSQL</p>
                     <div class="project-links">
-                        <a href="https://github.com/Hugo-N9" target="_blank" class="github-link"><i class="fab fa-github"></i> Código</a>
-                        <a href="#" target="_blank" class="figma-link"><i class="fab fa-figma"></i> Diseño</a>
+                        <a href="https://github.com/Hugo-N9" class="github-link">GitHub</a>
                     </div>
                 </div>
-
                 <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-laptop-code"></i>
-                    </div>
                     <h3>Portafolio personal</h3>
-                    <p class="project-semester">📅 8vo semestre</p>
-                    <p class="project-description">Mi portafolio profesional con HTML, CSS y JavaScript. Responsive y con animaciones.</p>
-                    <p class="project-learn"><strong>🎯 Aprendí:</strong> Despliegue en GitHub Pages, diseño responsive, animaciones CSS</p>
-                    <div class="project-tech">
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>JavaScript</span>
-                    </div>
+                    <p>Sitio web con HTML, CSS y JavaScript</p>
                     <div class="project-links">
-                        <a href="https://github.com/Hugo-N9/Hugo.github.io" target="_blank" class="github-link"><i class="fab fa-github"></i> Código</a>
-                        <a href="#" target="_blank" class="figma-link"><i class="fab fa-figma"></i> Diseño</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-network-wired"></i>
-                    </div>
-                    <h3>Script de monitoreo de red</h3>
-                    <p class="project-semester">📅 5to semestre</p>
-                    <p class="project-description">Script en Python que monitorea dispositivos en la red local y envía alertas.</p>
-                    <p class="project-learn"><strong>🎯 Aprendí:</strong> Ping y escaneo de puertos, manejo de sockets</p>
-                    <div class="project-tech">
-                        <span>Python</span>
-                        <span>Sockets</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/Hugo-N9" target="_blank" class="github-link"><i class="fab fa-github"></i> Código</a>
-                        <a href="#" target="_blank" class="figma-link"><i class="fab fa-figma"></i> Diagrama</a>
+                        <a href="https://github.com/Hugo-N9/Hugo.github.io" class="github-link">GitHub</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Sección Educación -->
-    <section id="educacion" class="educacion">
-        <div class="container">
-            <h2 class="section-title">Educación</h2>
-            <div class="education-card">
-                <div class="edu-icon">
-                    <i class="fas fa-university"></i>
-                </div>
-                <div class="edu-content">
-                    <h3>Licenciatura en Informática</h3>
-                    <p class="edu-institution">Universidad de la Sierra Sur | Miahuatlán, Oaxaca</p>
-                    <p class="edu-date">2022 - 2025 (cursando octavo semestre)</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Sección Contacto -->
     <section id="contacto" class="contacto">
         <div class="container">
-            <h2 class="section-title">¿Hablamos?</h2>
+            <h2 class="section-title">Contacto</h2>
             <div class="contact-content">
-                <p><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:hugo.aragón@universidad.edu.mx">hugo.aragón@universidad.edu.mx</a></p>
-                <p><i class="fab fa-github"></i> <strong>GitHub:</strong> <a href="https://github.com/Hugo-N9" target="_blank">github.com/Hugo-N9</a></p>
-                <p><i class="fas fa-map-marker-alt"></i> <strong>Ubicación:</strong> Miahuatlán de Porfirio Díaz, Oaxaca</p>
+                <p><i class="fas fa-envelope"></i> hugo.aragón@universidad.edu.mx</p>
+                <p><i class="fab fa-github"></i> github.com/Hugo-N9</p>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer>
-        <div class="footer-content">
-            <p>© 2025 Hugo Nicolás Aragón Maya | Hecho con <i class="fas fa-heart"></i> y mucho café ☕</p>
-        </div>
+        <p>© 2025 Hugo Nicolás Aragón Maya</p>
     </footer>
 
     <script src="script.js"></script>
